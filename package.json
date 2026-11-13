@@ -1,0 +1,11 @@
+{
+  "name": "project-task-management-poc",
+  "private": true,
+  "packageManager": "pnpm@12.10.1",
+  "scripts": {
+    "dev": "pnpm --filter frontend dev",
+    "build": "pnpm --filter frontend build",
+    "test": "pnpm --filter frontend test && pnpm --filter backend test",
+    "test:e2e": "pnpm --filter frontend test:e2e"
+  }
+}

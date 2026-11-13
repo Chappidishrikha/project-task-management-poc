@@ -1,0 +1,15 @@
+{
+  "name": "@poc/backend",
+  "private": true,
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "encore.dev": "^1.58.8"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.2.2",
+    "vitest": "^5.0.5"
+  }
+}
